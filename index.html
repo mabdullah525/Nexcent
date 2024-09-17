@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./static/css/main.css">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- CDN LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- counter -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <title>Nexcent</title>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/Logo.png" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feature">Feature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+          </ul>
+          <form class="d-flex duo-btn" role="search">
+            <button class="btn" type="submit">Login</button>
+            <button class="btn btn-outline-success" type="submit">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 fonts">
+                <h1>Lessons and insights <span class="years">from 8 years</span></h1>
+                <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
+
+                <div class="mt-4">
+                  <button class="btn btn-outline-success hero-btn" data-bs-toggle="tooltip"
+                    data-bs-title="Go Fast">Register</button>
+                </div>
+
+              </div>
+              <div class="col-lg-6 d-flex justify-content-end hero-center">
+                <img src="images/Illustration.png" class="img-fluid hero-img">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 fonts">
+                <h1>Lessons and insights <span class="years">from 8 years</span></h1>
+                <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
+
+                <div class="mt-4">
+                  <button class="btn btn-outline-success hero-btn" data-bs-toggle="tooltip"
+                    data-bs-title="Go Fast">Register</button>
+                </div>
+
+              </div>
+              <div class="col-lg-6 d-flex justify-content-end">
+                <img src="images/Illustration.png" class="img-fluid">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 fonts">
+                <h1>Lessons and insights <span class="years">from 8 years</span></h1>
+                <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
+
+                <div class="mt-4">
+                  <button class="btn btn-outline-success hero-btn" data-bs-toggle="tooltip"
+                    data-bs-title="Go Fast">Register</button>
+                </div>
+
+              </div>
+              <div class="col-lg-6 d-flex justify-content-end">
+                <img src="images/Illustration.png" class="img-fluid">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- OUR CLIENTS SECTION -->
+  <section class="our-clients section">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <h2>Our Clients</h2>
+        <p>We have been working with some Fortune 500+ clients</p>
+      </div>
+      <div class="clients-box text-center ">
+        <img src="images/Logo (1).png" class="img-fluid clients-logo">
+        <img src="images/Logo (2).png" class="img-fluid clients-logo">
+        <img src="images/Logo (3).png" class="img-fluid clients-logo">
+        <img src="images/Logo (4).png" class="img-fluid clients-logo">
+        <img src="images/Logo (5).png" class="img-fluid clients-logo">
+        <img src="images/Logo (6).png" class="img-fluid clients-logo">
+        <img src="images/Logo (2).png" class="img-fluid clients-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="community section" id="services">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <h3>Manage your entire community <br> in a single system</h3>
+        <p>Who is Nextcent suitable for?</p>
+      </div>
+      <div class="row text-center mt-3">
+        <div class="col-lg-4 col-md-12">
+          <div class="cards">
+            <div class="box">
+              <img src="images/Icon.png">
+              <h2>Membership Organisations</h2>
+              <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="cards">
+            <div class="box">
+              <img src="images/Icon (1).png">
+              <h2>National Associations</h2>
+              <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="cards">
+            <div class="box">
+              <img src="images/Icon (2).png">
+              <h2>Clubs And <br> Groups</h2>
+              <p>Our membership management software provides full automation of membership renewals and payments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THREE YEARS SECTION -->
+  <section class="three-years section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 d-flex justify-content-start year-center">
+          <img src="images/Frame 35.png" class="img-fluid">
+
+        </div>
+        <div class="col-lg-6 fonts">
+          <h1>The unseen of spending three years at Pixelgrade</h1>
+          <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
+            accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam
+            vitae, tempus sem. Donec elementum pulvinar odio.</p>
+
+          <div class="mt-4">
+            <button class="btn btn-outline-success year-btn" data-bs-toggle="tooltip" data-bs-title="Go Fast">Learn
+              More</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- HELPING LOCAL BUSSINES -->
+  <section class="helping-local section" id="feature">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 d-flex justify-content-start">
+          <div class="helping">
+            <h2>Helping a local <br><span>business reinvent itself</span></h2>
+            <p>We reached here with our hard work and dedication</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gy-3">
+
+            <div class="col-lg-6">
+              <div class="stats-item d-flex">
+                <i class="fa-solid fa-user"></i>
+                <div>
+                  <div class="counter">2,245,341</div>
+                  <p class="text">Members</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-6">
+              <div class="stats-item d-flex">
+                <i class="fa-solid fa-cubes"></i>
+                <div>
+                  <div class="counter">46,328</div>
+                  <p class="text">Clubs</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-6">
+              <div class="stats-item d-flex">
+                <i class="fa-solid fa-calendar-days"></i>
+                <div>
+                  <div class="counter">828,867</div>
+                  <p class="text">Event Bookings</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="stats-item d-flex">
+                <i class="fa-solid fa-credit-card"></i>
+                <div>
+                  <div class="counter">1,926,436</div>
+                  <p class="text">Payments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('.counter').counterUp({
+          delay: 10,
+          time: 1200,
+        })
+      });
+    </script>
+  </section>
+
+
+  <!-- DESIGN YOUR SITE -->
+  <section class="three-years section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 d-flex justify-content-start year-center class="image-fluid"">
+          <img src="images/pana.png" class="img-fluid">
+
+        </div>
+        <div class="col-lg-6 fonts">
+          <h1>How to design your site footer like we did</h1>
+          <p class="mt-3">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt
+            molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices
+            mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In
+            euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus
+            efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur
+            faucibus ipsum id gravida.</p>
+
+          <div class="mt-4">
+            <button class="btn btn-outline-success year-btn" data-bs-toggle="tooltip" data-bs-title="Go Fast">Learn
+              More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COUSTOMER SECTION -->
+  <section class="customer section" id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 d-flex justify-content-start">
+          <img src="images/image 9.png" class="img-fluid">
+        </div>
+        <div class="col-lg-7 justify-content-start">
+          <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt
+            ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
+            molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
+            Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis
+            vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget.
+            Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim
+            finibus ac sit amet magna.</p>
+          <h6>Tin Smith</h6>
+          <span>British Dragon Boat Racing Association</span>
+          <div class="customer-box d-flex mt-4 ">
+            <img src="images/blue-logo.png" class="image-fluid customer-logo">
+            <img src="images/Logo (2).png" class="image-flui customer-logo">
+            <img src="images/Logo (3).png" class="image-fluid customer-logo">
+            <img src="images/Logo (4).png" class="image-fluid customer-logo">
+            <img src="images/Logo (5).png" class="image-fluid customer-logo">
+            <img src="images/Logo (6).png" class="image-fluid customer-logo">
+            <div class="arrow d-flex align-items-center g-2">
+              <a href="#">Meet all customers</a><i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKETING SECTION -->
+  <section class="marketing section" id="products">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <h4>Caring is the new marketing</h4>
+        <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's
+          joining the community, read about how our community are increasing their membership income and lot's more.​
+        </p>
+      </div>
+      <div class="row gap-sec">
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="marketing-card">
+            <div class="image-body">
+              <img src="images/image 18.png" class="image-fluid w-100">
+              <div class="content-body text-center">
+                <h5>Creating Streamlined Safeguarding Processes with OneRen</h5>
+                <a href="#">Readmore</a> <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="marketing-card">
+            <div class="image-body">
+              <img src="images/image 19.png" class="image-fluid w-100">
+              <div class="content-body text-center">
+                <h5>Creating Streamlined Safeguarding Processes with OneRen</h5>
+                <a href="#">Readmore</a> <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="marketing-card">
+            <div class="image-body">
+              <img src="images/image 20.png" class="image-fluid w-100">
+              <div class="content-body text-center">
+                <h5>Creating Streamlined Safeguarding Processes with OneRen</h5>
+                <a href="#">Readmore</a> <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- get demo -->
+  <section class="get-demo get-bg" id="faq">
+    <div class="container">
+      <div class="demo justify-content-center text-center">
+        <h1>Pellentesque suscipit <br> fringilla libero eu.</h1>
+        <button class="demo-btn mt-4">Get a Demo <i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center"><img src="images/white.png"></a>
+            <div class="footer-contact pt-5">
+              <p>Copyright © 2024 Abdullah.</p>
+              <p>All rights reserved</p>
+            </div>
+            <div class="social-links d-flex mt-5">
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Status</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-news">
+            <h4>Stay up to date</h4>
+            <div class="input-group mt-4">
+              <input type="email" class="form-control" placeholder="Your email address" aria-label="your email address" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JAVA SCRIPT CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
